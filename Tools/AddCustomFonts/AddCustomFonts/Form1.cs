@@ -66,11 +66,15 @@ namespace AddCustomFonts
         private void button2_Click(object sender, EventArgs e)
         {
             openFileDialog1.ShowDialog();
-            foreach (string file in openFileDialog1.FileNames)
+            if(!openFileDialog1.FileNames.Contains("openFileDialog1"))
             {
-                comboBox1.Items.Add(file);
-                Files.Add(file);
-            };
+                foreach (string file in openFileDialog1.FileNames)
+                {
+                    comboBox1.Items.Add(file);
+                    Files.Add(file);
+                };
+            }
+
 
         }
     }
