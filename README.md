@@ -2,7 +2,7 @@
 ## We shared Custom Renderers to Xamarin Forms
 
 
-## Whe have:
+## We have:
 
 ### Customizable border corner radius on frame (top-left, top-right, bottom-left, bottom-right) Compatible with: Android, iOS and UWP.
 
